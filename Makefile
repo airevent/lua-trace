@@ -1,6 +1,6 @@
 #
 
-NAME = $(notdir $(basename $(PWD)))
+NAME = trace
 INSTALL_DIR = /home/pd/lib/lua
 
 build:
