@@ -71,7 +71,7 @@ trace_essence = function( ess, cache, tabs, mode )
             r:insert(trace.color.string)
         end
 
-        r:insert((string.format("%q", ess):gsub("\n", "x0A")))
+        r:insert((string.format("%q", ess):gsub("\n", "10")))
 
         if trace.use_colors then
             r:insert(trace.color.reset)
